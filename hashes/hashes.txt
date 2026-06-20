@@ -1,0 +1,32 @@
+HASH TABLE
+#a hash table is a data structure that that allows for incredibly fast data insertion and detion etc
+#think of it  like a magical index
+#you can enter the word like "apple" it will hash it to like 4 and then stright goes for the 4 in table column and has a time complixity of O(1)
+
+CONCEPT OF COLLISION
+#somethimes two elements have same index this is called 4 
+
+HANDELING OF COLLISONC -->
+#seaprate channing: using linked list 
+#open addressing: searches for next empty slot if the previous was taken
+#linear probing: 
+
+HASH MAP
+#all the functionality of a hash table but able to store the data
+maps: keys:value pair ex--> greg:7
+keys must be hashable 
+
+LINEAR PROBING 
+if the position is full go to i + 1 if that also full then  i+2 and so on
+or 
+if we lookup an element and it's npt there we go to next position and so on
+O(1)
+
+HASHABLE/IMMUTABLE DATATYPES
+#strings
+#integers
+#tuples
+
+NON_HASHABLES/MUTABLE
+#array
+#dictionary --> (hash map themselves but they are not hashable)
