@@ -37,7 +37,7 @@ int main(){
     }
     while(!result.empty()){
         cout << result.back() << " ";
-        result.pop_();
+        result.pop_back();
     }
 
 }
